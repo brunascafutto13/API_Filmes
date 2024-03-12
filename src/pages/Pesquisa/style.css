@@ -1,0 +1,30 @@
+.fundoDegrade{
+    background-image: linear-gradient(to bottom, #C02E5C, #F0689A);
+    align-items:normal;
+    max-width: 100%;
+    min-height: 100vh;
+    padding: 0; 
+    box-sizing: border-box;
+  }
+  
+ .fundoDegrade text{
+    font-family: cursive;
+    font-size: 160%;
+    margin-left: 2%;
+    color: #fff;
+ } 
+
+ .Mensagem {
+   margin-top: 10%;
+   margin-bottom: 16%;
+ }
+
+ .Mensagem text {
+   color: #fdfdfdd0;
+   font-family: koulen;
+   opacity: 50%;
+   font-size: 300%;
+   margin-top: 10%;
+   display: flex;
+   justify-content: center;
+ }

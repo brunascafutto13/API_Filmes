@@ -1,0 +1,22 @@
+.botao {
+    margin-bottom: 2%;
+    width: 60%;
+    border-radius: 12px;
+    border: none;
+    font-family: Bebas Neue;
+    font-size: 175%;
+    line-height: 150%;
+    text-align: center;
+    color: #ff007a;
+    box-sizing: border-box;
+    box-shadow: 0px 6px 6px 3px #00000040;
+}
+
+.botao:hover {
+    background-color: #f8dce3;
+  }
+
+.texto-botao{
+    font-weight:bolder;
+    text-shadow: -2px 3px 3px rgba(0, 0, 0, 0.4);
+}

@@ -1,0 +1,7 @@
+.botoes-dados{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* Removendo estilos que estavam iguais em outras páginas, aplicação de estilo é universal! */

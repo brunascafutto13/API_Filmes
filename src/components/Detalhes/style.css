@@ -1,0 +1,33 @@
+.formulario .detalhesTexto{
+  margin-bottom: 20%;
+  margin-top: 20%;
+}
+
+.label-input{
+  display:flex;
+  margin-bottom: 20%;
+  flex-direction: column;
+  margin-left: 8%;
+}
+
+.formulario .detalhesTexto label{
+  font-family: Bebas Neue;
+  text-align: left;  
+  color: #FFFFFF;
+  border-bottom: 2px solid #FFFFFF; 
+  width: fit-content;
+}
+
+.formulario .detalhesTexto input{
+  width: 200%;
+  margin-top: 7%;
+  border-radius: 15px;
+  font-family: Bebas Neue;
+  color:#FFFFFF;
+  border: 1px solid #FFFFFF;
+  background-color: transparent;
+  font-size: 18px;
+  font-weight: 400;
+  padding-block: 2%;
+  text-align: left;    padding-left: 6%;
+}

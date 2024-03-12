@@ -1,0 +1,18 @@
+.fundoDegrade{
+    background-image: linear-gradient(to bottom, #C02E5C, #F0689A);
+    align-items:normal;
+    max-width: 100%;
+    min-height: 100vh;
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+
+.formulario-container {
+    display:flex;
+    position:relative;
+    margin-top: 20%;
+    margin-right: 10% ;
+
+    
+  }

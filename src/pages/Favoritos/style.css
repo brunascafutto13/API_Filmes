@@ -1,0 +1,19 @@
+.footer{
+    display: flex;
+    justify-content: center;
+}
+
+.msgne {
+    margin-top: 7%;
+    margin-bottom: 12%;
+  }
+ 
+.msgne {
+    color: #fdfdfdd0;
+    font-family: koulen;
+    opacity: 50%;
+    font-size: 300%;
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+}

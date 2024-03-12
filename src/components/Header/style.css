@@ -1,0 +1,82 @@
+.header-component{
+    display:flex;
+    padding: 1% 5%;
+    background-color: transparent;
+    margin-left: 15px;
+}
+
+.header-component .logo{
+    width: 35%;
+    margin: -5% -20% -7% -18%;
+}
+
+.header-component .logo img{
+    max-width: 100%;
+}
+
+.header-component nav ul{
+    display:flex;
+    flex-direction: row;
+    margin-left: 25px;
+}
+
+.header-component nav ul li{
+    margin-left: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.header-component nav ul li a:hover{
+    text-decoration:underline;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color:#ffff;
+    font-family: Bebas Neue;
+    font-weight: 400;
+    font-size:20px;
+    transition: text-decoration;
+    margin-top: 15px;
+}
+
+.header-component nav ul li a img{
+    width: 70%;
+    transition:text-decoration;
+}
+.header-component nav ul li a img:hover{
+    text-decoration:underline;
+}
+
+.selected{
+    text-decoration: underline;
+}
+
+.pop-up {
+    display:none;
+}
+
+.pop-up-on{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background: transparent;
+    border: none;
+    border-radius: 15px;
+    z-index: 1;
+    margin-top: 0.5%;
+
+}
+
+.pop-up-on button{
+    margin-bottom: 5%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.minha-conta{
+    display: flex;
+    align-items: center;
+}

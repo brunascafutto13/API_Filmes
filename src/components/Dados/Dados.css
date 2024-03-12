@@ -1,0 +1,39 @@
+.dados{
+    background-color: transparent;
+    align-items: top;
+    justify-content: top;
+    margin-top: 15%;
+    gap:2%
+}
+
+ .dados-text{
+    font-family: Bebas Neue;
+    margin-bottom: 10%;
+    color: #fff;
+    border:none;
+    text-align: left;
+    font-size: 200%;
+    font-weight: bolder;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.dados button {
+    background-color: #C02E5C; 
+    display:block;
+    color: #fff; 
+    font-family: Bebas Neue;
+    font-size: 100%;
+    margin-top: 5%;
+    margin-left: 0%;
+    border-radius: 12px;
+    width:135%;
+    height: 25px;
+    cursor: pointer; 
+    border:none;
+    box-shadow: 1px 5px 5px 1px #00000040;
+    text-decoration-line: none;
+  }
+  
+  .dados button:hover {
+    background-color: #A6143F; 
+  }
+  

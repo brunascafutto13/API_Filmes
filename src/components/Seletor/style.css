@@ -1,0 +1,21 @@
+.select-favoritos {
+    margin-top: -2%;
+    margin-left: 2%;
+    border-radius: 10px;
+    padding: 0.6% 6%;
+    font-family: Bebas Neue;
+    font-weight: bolder;
+    font-size: 20px;
+    background-color: #C02E5C;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    box-shadow: 3px 4px 4px 1px #00000040;
+    color: #FFFF;
+    border: none;
+}
+.select-favoritos:focus{
+    border: none;
+ }
+
+.select-favoritos option:not(:checked) {
+    background-color: #d8507b;
+}

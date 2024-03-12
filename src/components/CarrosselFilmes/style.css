@@ -1,0 +1,98 @@
+.carrossel {
+    position: relative;
+    margin-left: 2%;
+    margin-right: 2%;
+    cursor: pointer;
+    overflow: hidden;
+    /* Adicione margens para posicionar as setas ao redor do carrossel */
+  }
+  
+  .interno {
+    display: flex;
+    gap: 2%;
+    /* Se necessário, ajuste o espaçamento interno entre os itens do carrossel */
+  }
+  
+  .iten {
+    margin-top: 0%;
+    min-width: 20%;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .iten img {
+    width: 100%;
+    height: 90%;
+    max-height: 90%;
+    border-radius: 10px;
+    pointer-events: none;
+    border: 5px solid #a0244b;
+  }
+  
+  .iten p {
+    font-family: cursive;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    font-size: 1.1em;
+    color: #fff;
+    text-align: center;
+    margin-top: -9%;
+    min-height: 48px;
+  }
+  
+/* Estilos para o botão com degradê personalizado */
+.carrossel .button-left {
+  
+  position: absolute;
+  top: 41.5%;
+  transform: translateY(-50%);
+  padding-inline: 3.5%;
+  padding-block: 12.3%;
+  border-radius: 10px;
+  background: linear-gradient(to right, #000000, #ff333300);; /* Gradiente para o botão direito */
+  color: #ffffff00;
+  height: 40px;
+  border: none;
+  cursor: pointer;
+  z-index: 1;
+  left: 0%;
+}
+
+  .carrossel .button-right {
+    position: absolute;
+    top: 41.5%;
+    transform: translateY(-50%);
+    padding-inline: 3.5%;
+    padding-block: 12.3%;
+    border-radius: 0px;
+    background: linear-gradient(to right, #ff333300, #000000);; /* Gradiente para o botão direito */
+    color: #ffffff00;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    z-index: 1;
+    right: 0%; /* Posicione o botão direito onde desejar */
+  }
+  
+  .button-left img{
+    margin-left: -55%;
+    margin-top: -25%;
+  }
+  
+  .button-left {
+    display: center;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .button-right img{
+    margin-right: -50px;
+    margin-top: -25%;
+  }
+
+  .button-right {
+    display: center;
+    align-items: center;
+    justify-content: flex-start;
+  }
